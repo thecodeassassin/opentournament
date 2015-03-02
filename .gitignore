@@ -1,0 +1,7 @@
+
+# ignore composer files/directories
+vendor
+composer.phar
+.idea
+app/config/parameters.ini
+app/logs/

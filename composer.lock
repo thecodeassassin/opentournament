@@ -1,0 +1,162 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "15a7b0c48602101647c670a94faa888b",
+    "packages": [
+        {
+            "name": "gabordemooij/redbean",
+            "version": "v3.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/gabordemooij/redbean.git",
+                "reference": "41bb293e2bc744c150e4ae30e30fb5083e047f53"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gabordemooij/redbean/zipball/41bb293e2bc744c150e4ae30e30fb5083e047f53",
+                "reference": "41bb293e2bc744c150e4ae30e30fb5083e047f53",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "RedBean_": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD"
+            ],
+            "authors": [
+                {
+                    "name": "Gabor de Mooij",
+                    "email": "gabordemooij@gmail.com",
+                    "homepage": "http://www.redbeanphp.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Easy ORM for PHP",
+            "homepage": "http://github.com/gabordemooij/redbean",
+            "keywords": [
+                "Object Relational Mapping",
+                "orm"
+            ],
+            "time": "2013-10-30 22:13:02"
+        },
+        {
+            "name": "leaseweb/slim-routing-manager",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/LeaseWeb/slim-routing-manager.git",
+                "reference": "d50983151fbe1771c91f279e7649f2d3fe303d38"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/LeaseWeb/slim-routing-manager/zipball/d50983151fbe1771c91f279e7649f2d3fe303d38",
+                "reference": "d50983151fbe1771c91f279e7649f2d3fe303d38",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "slim/slim": "2.5.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Slim\\Routing": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Patrick JL Laso",
+                    "email": "wld1373@gmail.com",
+                    "homepage": "http://www.patricklaso.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Stephen Hoogendijk",
+                    "email": "stephen@tca0.nl",
+                    "homepage": "http://stephen.tca0.nl",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Controller and annotation based routing for the Slim Framework",
+            "homepage": "http://www.leaseweblabs.com",
+            "keywords": [
+                "router",
+                "routing",
+                "routing manager",
+                "slim",
+                "slimframework"
+            ],
+            "time": "2015-02-10 14:53:03"
+        },
+        {
+            "name": "slim/slim",
+            "version": "2.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codeguy/Slim.git",
+                "reference": "04958a10ed95bc7bc97568e573877d4f9b62db48"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/codeguy/Slim/zipball/04958a10ed95bc7bc97568e573877d4f9b62db48",
+                "reference": "04958a10ed95bc7bc97568e573877d4f9b62db48",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "suggest": {
+                "ext-mcrypt": "Required for HTTP cookie encryption"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Slim": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Josh Lockhart",
+                    "email": "info@joshlockhart.com",
+                    "homepage": "http://www.joshlockhart.com/"
+                }
+            ],
+            "description": "Slim Framework, a PHP micro framework",
+            "homepage": "http://github.com/codeguy/Slim",
+            "keywords": [
+                "microframework",
+                "rest",
+                "router"
+            ],
+            "time": "2014-12-09 19:59:29"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.3.0"
+    },
+    "platform-dev": []
+}

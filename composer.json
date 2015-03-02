@@ -1,0 +1,27 @@
+{
+    "name": "thecodeassassin/opentournament",
+    "type": "proprietary",
+    "description": "Leaseweb Cloud Central API",
+    "keywords": [
+        "leaseweb",
+        "cloud",
+        "api"
+    ],
+    "homepage": "https://github.com/thecodeassassin/opentournament",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Stephen Hoogendijk",
+            "email": "stephen@tca0.nl"
+        }
+    ],
+    "require": {
+        "slim/slim": "2.5.*",
+        "php": ">=5.4.0",
+        "leaseweb/slim-routing-manager": "2.*",
+        "gabordemooij/redbean": "3.*"
+    },
+    "autoload": {
+        "psr-0": {"": "src/"}
+    }
+}
